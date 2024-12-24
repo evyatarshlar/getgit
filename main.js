@@ -1,5 +1,8 @@
 'use strict'
 
 function onBallClick(){
-    console.log('mashiach is coming!')
+    var elBall = document.querySelector('.ball')
+    elBall.style.width = '150px'
+    elBall.style.height = '150px'
+    elBall.innerHTML = '150px'
 }
